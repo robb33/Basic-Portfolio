@@ -116,9 +116,9 @@ p {
 
 .box {
 
-	background: #fff;
+	background: #333;
 	height: 200px;
-	width: 100px
+	width: auto;
 
 }
 
