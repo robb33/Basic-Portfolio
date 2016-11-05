@@ -3,27 +3,60 @@
 <head>
 	<title>Portfolio</title>
 	<!-- Reset.css file  -->
-<!-- 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
- -->	
-
- <!-- This critical line points your HTML to the CSS file. Notice the "relative" pathway  -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<!-- This critical line points your HTML to the CSS file. Notice the "relative" pathway  -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<body>
-<header>Header</header>
-	
-<nav>
-<a href="index.html">About</a>
-<a href="contact.html">Contact</a>
-<a href="portfolio.html">Portfolio</a>
-</nav>
+
+<body class="container">
+
+	<header class="container">
+	<nav>
+	<ul>
+	<li><a href="index.html">About</a></li>
+	<li><a href="contact.html">Contact</a></li>
+	<li><a href="portfolio.html">Portfolio</a></li>
+	</ul>
+	</nav>
+	</header>
+
+
+<section class="main">
+<header>Contact Form</header>
+
+
+
+
 
 
 <section>
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+	<div class="row">
+		<label for="name">Your name:</label><br />
+		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="email">Your email:</label><br />
+		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="message">Your message:</label><br />
+		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+	</div>
+	<input id="submit_button" type="submit" value="Submit" />
+</form>
+</section>
 
 
+</section>
+
+<section class="rightsidebar">
+<header>Side Bar</header>
+	
 <p>
-about me information here
+
+Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn. Stell'bsna, mg ooboshu gnaiih phlegeth chtenff nanilgh'ri ah, sll'ha s'uhn hlirgh kadishtu k'yarnakor. R'luh grah'n y-gotha ee ebunma ep nw R'lyeh uaaah ah mnahn', cshogg shogg Hastur cstell'bsna Dagon s'uhn 'ai chtenff fm'latgh zhro gof'nn, sgn'wahl Dagon goka ftaghu y'hah mg ep 'ai f'phlegeth.
+
 </p>
 
 
@@ -32,11 +65,8 @@ about me information here
 
 
 
-
-
-
-
 <footer>
 	&copy; Robert Benbenek
-</footer>	
+</footer>
+
 </body>
